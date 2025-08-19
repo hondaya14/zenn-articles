@@ -13,7 +13,7 @@ run = "npx zenn preview"
 description = "Publish article"
 run = """
 git add articles/
-new_articles=`git diff --cached --name-only --diff-filter=ACMR articles/* | xargs -n1`
+new_articles=`git diff --cached --name-only --diff-filter=ACMRD 'articles/*' | xargs -n1`
 slugs=`git diff --cached --name-only --diff-filter=ACMR articles/* | xargs basename -s .md | xargs | tr ' ' ','`
 
 if [[ -z "$new_articles" ]]; then
@@ -29,6 +29,7 @@ done
 read -r -p "\nPublish? [y/N](default: y): " ans
 if [[ -z "$ans" || "$ans" =~ ^[Yy]$ ]]; then
     git commit -m \"publish: article(slug: $slugs)\"
+    git push origin main
     echo "✅ Published."
 else
     echo "Unpablishd."
