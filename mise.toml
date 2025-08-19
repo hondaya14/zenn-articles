@@ -1,0 +1,10 @@
+[tools]
+node = "24.6.0"
+
+[tasks.create-article]
+description = "Create new article"
+run = "npx zenn new:article"
+
+[tasks.preview]
+description = "Host article preview"
+run = "npx zenn preview"
