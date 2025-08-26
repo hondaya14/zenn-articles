@@ -1,9 +1,9 @@
 ---
-title: "Kotlin Nativeの2パターン -- Kotlin/NativeとGraalVM Native Image"
+title: "KotlinでNative Buildするときの2パターン —— Kotlin/Native・GraalVM"
 emoji: "🫠"
 type: "tech"
-topics: [Kotlin, Native, GraalVM]
-published: false
+topics: [Kotlin, GraalVM]
+published: true
 ---
 
 Kotlin は KMP（Kotlin Multiplatform）によって複数のプラットフォームで同一コードを動かせます。多くの文脈では iOS/Android が語られがちですが、**Desktop/Server-side** も対象です。本稿では **[Ktor](https://github.com/ktorio/ktor)** を使って
