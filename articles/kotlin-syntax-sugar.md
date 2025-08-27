@@ -2,8 +2,8 @@
 title: "Kotlin's Syntax Sugar / Kotlinのシンタックスシュガー —— Embracing Kotlin"
 emoji: "🫠"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [kotlin, java]
-published: false
+topics: [kotlin]
+published: true
 ---
 
 # Kotlinを愛でる - Syntax Sugar
@@ -60,7 +60,7 @@ ref: [Case Study: Why Kakao Pay Chose Kotlin and Spring for Backend Development]
 ### ラムダ・関数呼び出し
 
 #### Trailing lambda
-個人的にkotlinの気持ちのいいsyntaxを実現しているsyntax sugarであると思う
+個人的にkotlinのもっとも愛でポイントである気持ちのいいsyntaxを実現しているsyntax sugarであると思う
 関数の引数の末尾が関数であったり、関数の引数が関数の場合
 
 stdlibの実装で多く使う一つ`filter`
