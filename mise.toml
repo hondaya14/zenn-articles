@@ -12,7 +12,7 @@ run = "npx zenn preview"
 [tasks.publish]
 description = "Publish article"
 run = """
-git add articles/
+git add articles/ images/
 new_articles=`git diff --cached --name-only --diff-filter=ACMRD 'articles/*' | xargs -n1`
 slugs=`git diff --cached --name-only --diff-filter=ACMR articles/* | xargs basename -s .md | xargs | tr ' ' ','`
 
@@ -35,4 +35,3 @@ else
     echo "Unpablishd."
 fi
 """
-
