@@ -3,7 +3,7 @@ title: "Kotlinにおける快適なテスティングエコシステム"
 emoji: "🫠"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [kotlin, test, oss]
-published: false
+published: true
 ---
 
 # Open-source tools for your testing ecosystem
