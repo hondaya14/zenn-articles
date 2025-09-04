@@ -87,7 +87,7 @@ or
 - Findings ... ルール違反したルールとコードが示される.
 
 ![](/images/detekt_report.png)
-ref: https://detekt.dev/docs/introduction/reporting
+Ref: https://detekt.dev/docs/introduction/reporting
 
 
 gradle taskでは、detektが解析して、ルール違反するとtask: FAILEDになります。
@@ -234,7 +234,7 @@ class KotestConfig : AbstractProjectConfig() {
 report画面
 
 ![](/images/kotest-allure.png)
-ref: https://kotest.io/docs/extensions/allure.html
+Ref: https://kotest.io/docs/extensions/allure.html
 
 
 そのほかにもテストの実行時間のduration graphやtimelineでの可視化も可能なので下記を参照してください。
